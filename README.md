@@ -1,7 +1,7 @@
 # Customer-Transaction-Prediction
 Customer Transaction Prediction using Machine Learning with automated hyperparameter tuning (HistGradientBoost, RandomizedSearchCV) and ROC-AUC based evaluation.
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on predicting whether a customer will make a specific transaction in the future, irrespective of the transaction amount.
 The objective is to build a robust machine learning model that helps financial institutions identify potential customers likely to perform transactions, enabling better targeting strategies and improved operational efficiency.
 
@@ -20,7 +20,7 @@ Accurate prediction helps:
 - 200 anonymized numerical features
 - one `ID_code` column (identifier)
 - `target` column (binary classification)
-- - `0` → Customer will NOT make a transaction
+- `0` → Customer will NOT make a transaction
 - `1` → Customer WILL make a transaction
 - 200000 rows
 
@@ -64,7 +64,7 @@ Additional metrics:
 
 ROC-AUC was prioritized due to class imbalance.
 
-## Feature Imporatnce
+### Feature Imporatnce
 - used permutation Feature importance
 - For identifing most influencing features
 
