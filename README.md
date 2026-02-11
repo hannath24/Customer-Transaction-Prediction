@@ -17,6 +17,8 @@ Accurate prediction helps:
 
 ## Dataset Description
 
+- Link : https://d3ilbtxij3aepc.cloudfront.net/projects/CDS-Capstone-Projects/PRCP-1003-
+CustTransPred.zip
 - 200 anonymized numerical features
 - one `ID_code` column (identifier)
 - `target` column (binary classification)
